@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 // import './App.css';
 import HomeScreen from './Screens/HomeScreen';
-import ProductScreen from './Screens/ProductScreen copy';
+import ProductScreen from './Screens/ProductScreen';
 
 function App() {
   const openMenu = () => document.querySelector(".sidebar").classList.add("open");
